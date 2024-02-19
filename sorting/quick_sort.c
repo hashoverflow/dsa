@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int partition (int *a, int l, int r) {
+int partition(int *a, int l, int r) {
     int p = l;
     for (int i = l; i < (r - 1); i++) {
         if (a[i] < a[r - 1]) {
